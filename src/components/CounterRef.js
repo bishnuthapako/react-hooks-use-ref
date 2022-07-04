@@ -5,7 +5,8 @@ function CounterRef() {
 
   function handleClick() {
     count.current = count.current + 1;
-    console.log(count.current);
+    // console.log(count.current);
+
   }
 
   return (
